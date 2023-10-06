@@ -1,0 +1,135 @@
+.navbar.bg-custom {
+    background-color:#424242;
+}
+
+#logoNav{
+    width: 120px;
+    height: 80px;
+}
+
+#descLogo{
+    font-family: sans-serif;
+    font-weight: bold;
+    font-size: 1.2em;
+   
+}
+.nav-link{
+    font-size: clamp(0.8em,1.2vw,1.2em);
+    font-family: 'Roboto', sans-serif;
+}
+.nav-link.textoNav{
+    color: #BDBDBD;
+    
+}
+
+
+/* Carrusel */
+
+.d-item{
+    height: 800px;
+}
+
+.d-img{
+    height: 100%;
+    object-fit: cover;
+}
+/* oradores */
+.bg-oradores{
+    z-index: 1;
+	background: linear-gradient(-45deg, red, green, blue, yellow);
+	
+	animation: animate 15s ease infinite;
+}
+.custom-inline-block {
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+  }
+
+.lenguajes{
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    font-size: 1em;
+}
+.lenguajes-2{
+    color: #ffff;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    font-size: 1em;
+}
+
+/* Segunda Tarjeta*/
+
+.card-text{
+    font-size: clamp(0.8em,1.2vw,1.2em);
+    font-family: 'Roboto', sans-serif;
+}
+.card-title{
+    font-size: clamp(1.2em,1.5vw,1.6em);
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+}
+
+.bg-custom-gr{
+    background: rgb(18,21,103);
+    background: radial-gradient(circle, rgba(18,21,103,1) 24%, rgba(26,116,171,1) 50%, rgba(14,9,79,1) 100%, rgba(0,212,255,1) 100%);
+}
+
+.bg-custom-gr2{
+    background: rgb(9,50,79);
+    background: linear-gradient(90deg, rgba(9,50,79,1) 11%, rgba(65,11,101,1) 52%, rgba(19,107,176,1) 100%, rgba(14,9,79,1) 100%);
+}
+
+@media (min-width: 768px) {
+    .no-contraction {
+      
+      max-width: none !important;
+      width: auto !important;
+    }
+  }
+
+/* Form */
+
+.custom-tx-boton{
+    font-family: Verdana, Geneva, Tahoma, sans-serif; /* Reemplaza 'TuFuente' con el nombre de la fuente que desees usar */
+    font-size: 1.2em; /* Ajusta el tamaño del texto del placeholder según tus preferencias */
+}
+.custom-input::placeholder {
+    font-family: Verdana, Geneva, Tahoma, sans-serif; /* Reemplaza 'TuFuente' con el nombre de la fuente que desees usar */
+    font-size: 1em; /* Ajusta el tamaño del texto del placeholder según tus preferencias */
+     
+  }
+
+  .custom-input-2::placeholder {
+    font-family: Verdana, Geneva, Tahoma, sans-serif; 
+    font-size: 1.2em; 
+     
+  }
+
+  .custom-desc{
+    font-family: Georgia, 'Times New Roman', Times, serif
+  }
+
+  .btn-custom-color{
+    color: #ffff;
+    background-color: #58D68D;
+  }
+
+  
+
+.enlace-footer {
+  font-size: 0.9em;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  text-decoration: none;
+  color:#ffff; 
+  transition: color 0.3s; 
+}
+
+.enlace-footer:hover {
+  color: #F7DC6F ; 
+}
+
+.bg-footer{
+    background: rgb(4,74,83);
+    background: linear-gradient(60deg, rgba(4,74,83,1) 0%, rgba(0,30,88,1) 100%);
+}

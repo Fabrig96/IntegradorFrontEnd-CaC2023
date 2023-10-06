@@ -1,0 +1,177 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/estilos.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    <header>
+    <nav class="navbar navbar-expand-md bg-custom px-5 py-0">
+        <div class="container-fluid">
+          <a class="navbar-brand me-0" href="#"><img id="logoNav" src="images/codoacodo-min.png" alt="Logo Codo a Codo"></a>
+          
+          <div class="navbar-nav" id="descLogo">
+            <a class="nav-link active text-white" aria-current="page" href="#" >Conf Bs As</a>
+        </div>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <div class="navbar-nav ms-auto">
+              <a class="nav-link active text-white tex-md" aria-current="page" href="#">La conferencia</a>
+              <a class="nav-link textoNav " href="#">Los oradores</a>
+              <a class="nav-link textoNav " href="#">El lugar y la fecha</a>
+              <a class="nav-link textoNav " href="#">Conviértete en orador</a>
+              <a class="nav-link textoNav text-success " href="#">Comprar Tickets</a>
+             
+            </div>
+          </div>
+        
+      </nav>
+    </header>
+
+  <div class="container-fluid bg-oradores my-5">
+    <div class="container mt-3 mb-4 ">
+      <div class="row ">
+        <div class="col text-center">
+          <p class="my-0">Conoce a los Oradores</p>
+          <h1 class="">Oradores</h1>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-4">
+          <div class="card" >
+            <img src="images/steve-min.jpg" class="card-img-top" alt="Steve Jobs">
+            <div class="card-body">
+                <p class="bg-warning custom-inline-block px-1 mt-3 rounded-2 lenguajes">JavaScript</p>
+                <p  class="bg-info custom-inline-block px-1 mt-3 rounded-2 lenguajes-2">React</p>
+              <h2 class="card-title">Steve Jobs</h2>
+              <p class="card-text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Officiis architecto eligendi saepe autem debitis sapiente culpa maiores accusantium, quis, rem, repudiandae consequatur consequuntur. Maxime provident quis, quasi sapiente iure non.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card" >
+            <img src="images/bill-min.jpg" class="card-img-top" alt="Bill Gates">
+            <div class="card-body">
+              <p class="bg-warning custom-inline-block px-1 mt-3 rounded-2 lenguajes">JavaScript</p>
+                <p  class="bg-info custom-inline-block px-1 mt-3 rounded-2 lenguajes-2">React</p>
+              <h2 class="card-title">Bill Gates</h2>
+              <p class="card-text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Officiis architecto eligendi saepe autem debitis sapiente culpa maiores accusantium, quis, rem, repudiandae consequatur consequuntur. Maxime provident quis, quasi sapiente iure non.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card" >
+            <img src="images/ada-min.jpeg" class="card-img-top" alt="Ada Lovelace">
+            <div class="card-body">
+              <p class="bg-secondary custom-inline-block px-1 mt-3 rounded-2 lenguajes-2">Negocios</p>
+              <p  class="bg-danger custom-inline-block px-1 mt-3 rounded-2 lenguajes-2">Startup</p>
+              <h2 class="card-title">Ada Lovelace</h2>
+              <p class="card-text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Officiis architecto eligendi saepe autem debitis sapiente culpa maiores accusantium, quis, rem, repudiandae consequatur consequuntur. Maxime provident quis, quasi sapiente iure non.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+    <div class="card mb-3 bg-custom-gr">
+      <div class="row g-0">
+        <div class=" col-lg-6">
+          <img src="images/mdplata.jpg" class="img-fluid rounded-start" alt="Mar del Plata">
+        </div>
+        <div class=" col-lg-6">
+          <div class="card-body text-white">
+            <h3 class="card-title">Bs As  -  Octubre</h3>
+            <p class="card-text">Mar del Plata, ubicada en la provincia de Buenos Aires, Argentina, es una popular ciudad costera famosa por sus extensas playas y su vibrante escena turística. Ofrece una amplia gama de actividades recreativas, una rica oferta gastronómica y una animada vida nocturna. La ciudad también es conocida por su escena cultural, con teatros, festivales y eventos artísticos. Es un destino ideal para aquellos que buscan disfrutar del sol y el mar, así como de una experiencia urbana dinámica. Además, cuenta con una gran variedad de opciones de alojamiento, desde hoteles boutique hasta acogedores hostales, para satisfacer las preferencias de todo tipo de viajeros.</p>
+            <!-- <ul class="list-group card-text ">
+              <li class="list-group-item text-white bg-custom-gr2">
+                <strong>Historia:</strong> Fundada en el siglo XIX, Mar del Plata ha sido un destino turístico popular desde principios del siglo XX. Su historia y arquitectura reflejan esta herencia.
+              </li>
+              <li class="list-group-item text-white bg-custom-gr2">
+                <strong>Cultura:</strong> Mar del Plata cuenta con una escena cultural vibrante. Teatros como el Teatro Auditorium y el Teatro Colón ofrecen una amplia variedad de espectáculos.
+              </li>
+            
+            </ul> -->
+            
+            <button type="button" class="btn btn-outline-light px-2 py-2 mt-3">Conoce más</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <form action="">
+      <div class="container mb-4">
+        <div class="mt-5 py-2 text-center custom-desc">
+          <p class="mb-1">CONVIÉRTETE EN UN</p>      
+          <h3 class="mt-0">ORADOR</h3>
+          <p>Anótate como orador para una <span style="border-bottom:2px dotted #808080; text-decoration:none;">charla ignite.</span> Cuéntanos de qué quieres hablar!</p>
+        </div>
+        <div class="row justify-content-center">
+            <div class="col-md-3">
+                <div class="mb-3">
+                    <input type="text" class="form-control custom-input" id="FormNombre" placeholder="Nombre">
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="mb-3">
+                  
+                    <input type="text" class="form-control custom-input" id="FormApellido" placeholder="Apellido">
+                </div>
+            </div>
+        </div>
+        <div class="row justify-content-center">
+            <div class="col-md-6">
+                <div class="mb-3">
+                    <textarea class="form-control custom-input-2" id="exampleFormControlTextarea1" rows="3" placeholder="Sobre qué quieres hablar?" ></textarea>
+                </div>
+            </div>
+        </div>
+
+        <div class="row text-center">
+          <div class="col-md-12">
+              <div class="mb-3">
+                <button type="submit" class="btn btn-custom-color w-50 custom-tx-boton">Enviar</button>
+              </div>
+          </div>
+        </div>
+      </div>
+    </form>
+
+    <footer class="bg-footer text-dark pt-5 pb-4">
+      <div class="container text-center">
+        <div class="row justify-content-center text-center">
+          <div class="col-md-1 col-sm-3 mx-4 my-3">
+            <a href="#" class="enlace-footer">Preguntas frecuentes</a>
+          </div>
+          <div class="col-md-1 col-sm-3 mx-4 my-3">
+            <a href="#" class="enlace-footer">Contáctanos</a>
+          </div>
+          <div class="col-md-1 col-sm-3 mx-4 my-3">
+            <a href="#" class="enlace-footer">Prensa</a>
+          </div>
+          <div class="col-md-1 col-sm-3 mx-4 my-3">
+            <a href="#" class="enlace-footer">Conferencias</a>
+          </div>
+          <div class="col-md-1 col-sm-3 mx-4 my-3">
+            <a href="#"class="enlace-footer" >Términos y condiciones</a>
+          </div>
+          <div class="col-md-1 col-sm-3 mx-4 my-3">
+            <a href="#" class="enlace-footer">Privacidad</a>
+          </div>
+          <div class="col-md-1 col-sm-3 mx-4 my-3">
+            <a href="#" class="enlace-footer">Estudiantes</a>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+  </body>
+</html>
